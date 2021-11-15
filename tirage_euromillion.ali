@@ -1,0 +1,106 @@
+V "GNAT Lib v2016"
+M P W=b
+A -gnatwu
+A -gnat05
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U tirage_euromillion%b	tirage_euromillion.adb	4c5cfdba NE OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20160516092928 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-imguns.ads		20160516092928 9ff43cf7 system.img_uns%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20160516092932 20ba1217 system.random_numbers%b
+D s-ransee.ads		20160516092932 01a57b33 system.random_seed%s
+D s-secsta.ads		20160516092930 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-valuns.ads		20160516092932 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+D tirage_euromillion.adb  20160919153914 f39fdc25 tirage_euromillion%b
+X 1 ada.ads
+16K9*Ada 19e8 33|1r6 1r23 2r6 2r31 3r6 9r32
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 33|2w10 2r35
+X 5 a-numeri.ads
+16K13*Numerics 32e17 33|3r10 9r36
+X 6 a-nudira.ads
+44k22*Discrete_Random 75e33 33|3w19 9r45
+50R9 Generator<21|63R9> 33|11r6[9] 14r26[9]
+52V13 Random{integer} 33|16s14[9]
+55U14 Reset<21|100p14> 33|37s10[9] 55s10[9] 60s4[9]
+X 7 a-nudira.adb
+53V16 Random[21|83]{integer} 22|392b13[33|9]
+X 10 a-textio.ads
+49K13*Text_IO 471e16 33|1w10 1r27
+166U14*New_Line 33|31s91 45s92 62s4
+242U14*Put 33|31s7 45s7
+X 11 a-tiinio.ads
+66U14*Put 33|36s10[3|18] 54s10[3|18]
+X 13 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 21 s-rannum.ads
+75V13*Random{13|74M9} 22|221i21
+76V13*Random{13|77M9} 22|221i21
+X 33 tirage_euromillion.adb
+5U11*Tirage_Euromillion 5b11 64l8 64t26
+7I9 Chiffre{integer} 9r62 14r44 21r36
+8I9 Etoile{integer} 22r36
+9K12 TournerBoule[6|44] 10r11
+11r4 G{6|50R9[9]} 34r24 37r16 48r24 55r16 60r10
+14V13 TournerB{7I9} 14b13 14>23 17l8 17t16 34s15 48s15
+14r23 G{6|50R9[9]} 16r21
+21A9 GrilleB(7I9)<integer> 24r8 28r40
+22A9 GrilleE(8I9)<integer> 25r8 42r41
+24a4 B{21A9} 61m18 61r18
+25a4 E{22A9} 63m19 63r19
+28U14 AfficherBoule 28b14 28=29 39l8 39t21 61s4
+28a29 B{21A9} 33r16 35m10 36r14
+29i3 x{integer} 34m10 35r18
+33i11 I{integer} 35r12 36r16
+42U14 AfficherEtoile 42b14 42=30 57l8 57t22 63s4
+42a30 E{22A9} 47r16 50m21 54r14
+43i3 y{integer} 48m10 49r13 50r29
+47i11 J{integer} 50r23 54r16
+
